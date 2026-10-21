@@ -1,0 +1,32 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Library Management System for Diploma Computer Engineering DBMS Micro-Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node scripts/init-db.js",
+    "init-supabase": "node scripts/init-supabase.js",
+    "verify-supabase": "node scripts/verify-supabase.js",
+    "test": "node scripts/test-suite.js"
+  },
+  "keywords": [
+    "library-management",
+    "dbms-project",
+    "diploma-engineering",
+    "mysql",
+    "express",
+    "nodejs"
+  ],
+  "author": "Diploma Computer Engineering Project",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "pg": "^8.23.1"
+  }
+}
